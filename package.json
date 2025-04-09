@@ -1,0 +1,15 @@
+{
+  "name": "webhook-server",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "scripts": {
+    "start": "bun --watch index.ts"
+  },
+  "type": "module"
+}
