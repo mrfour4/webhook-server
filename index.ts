@@ -126,6 +126,7 @@ async function handleRequest(req: Request): Promise<Response> {
 // Khởi chạy server webhook
 serve({
     port: PORT,
+    hostname: "0.0.0.0",
     fetch: handleRequest,
 });
 
